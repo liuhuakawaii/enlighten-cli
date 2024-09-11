@@ -1,0 +1,17 @@
+{
+  "name": "@liuhuakawaiitestgroup/test-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "test-cli": "bin/index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@liuhuakawaiitestgroup/test-a": "^1.0.0"
+  }
+}

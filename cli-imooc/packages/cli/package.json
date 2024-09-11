@@ -1,0 +1,33 @@
+{
+  "name": "@liuhuakawaii-cli-test/cli",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "ergo <liuhuakawaii@163.com>",
+  "homepage": "https://github.com/liuhuakawaii/enlighten-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "bin": {
+    "cli-imooc": "bin/cli.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuhuakawaii/enlighten-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/cli.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/liuhuakawaii/enlighten-cli/issues"
+  }
+}

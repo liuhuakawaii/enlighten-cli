@@ -1,3 +1,3 @@
-import chalk from 'chalk'
+#!/usr/bin/env node
 
-console.log(chalk.green('hello world'))
+require('./inquirer/rxjs')
